@@ -1,0 +1,99 @@
+body {
+  background-image: url("images/background.jpg");
+  /*  background-color: #CEAB83;*/
+
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(70, 70, 70);
+  font-family: 'Pirata One',
+    cursive;
+}
+
+h1 {
+  color: #CE5E5A
+}
+
+p {
+  font-family: 'Coming Soon', cursive;
+  color: rgb(60, 60, 60);
+  text-align: justify;
+}
+
+a {
+  color: #6B4F33;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a:hover {
+  color: #CE5E5A;
+
+}
+
+td {
+  padding: 20px 10px;
+}
+
+
+
+img {
+  width: 200px;
+  max-height: 250px
+}
+
+.container {
+  width: 600px;
+  /* This sets the width */
+  margin: 0 auto;
+  /* This automatically sets left/right margins */
+  text-align: center;
+
+
+
+}
+
+.card {
+  background: #CBD1C6;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px;
+
+}
+
+.round {
+  border-radius: 50%
+}
+
+.border {
+  border: 2px solid;
+  border-color: #212239;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+
+.list-inline>li {
+  display: inline-block;
+  padding: 0px 40px;
+}
+
+
+.btn {
+  background-color: #CE5E5A;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  opacity: 1;
+}
+
+.btn:hover {
+  background-color: #C61414;
+  color: white;
+}
